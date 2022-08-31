@@ -1,0 +1,147 @@
+{
+  "id": "cca9ca8e-3a5d-40b1-9d1b-2fba6c451ef5",
+  "version": "2.0",
+  "name": "marketing_doc",
+  "url": "http://sapsvr01",
+  "tests": [{
+    "id": "e1d3ae4b-511b-41ec-ac23-d89430202241",
+    "name": "marketing_test",
+    "commands": [{
+      "id": "e5fb462b-00a5-4c0c-b560-384774f53feb",
+      "comment": "",
+      "command": "open",
+      "target": "/Reports/Pages/Report.aspx?ItemPath=%2f04.+Inventory%2fMarketing+Document",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1758ebd7-5460-4213-8ee4-a86e2ab4ae93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "325b9f5e-f8c7-4147-94a3-97b73bc7dbf6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl32_ctl04_ctl03_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl03_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl03$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl03_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl03_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl03']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32dc4e77-5f72-4787-80a0-8c38098ea3bc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [[13,11498],[13,3498]]",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "75a88026-242c-43cf-a588-fc343183ca54",
+      "comment": "",
+      "command": "forEach",
+      "target": "x",
+      "targets": [],
+      "value": "iterator"
+    }, {
+      "id": "5cd27b84-ab6d-4d5e-a1da-ee811411b5cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl32_ctl04_ctl03_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl03_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl03$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl03_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl03_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl03']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": "${iterator[1]}"
+    }, {
+      "id": "8d09c9c5-7faa-428b-9020-2875ae5f9d31",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl32_ctl04_ctl05_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl05_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl05$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl05_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl05_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl05']/input", "xpath:idRelative"],
+        ["xpath=//td[5]/div/input", "xpath:position"]
+      ],
+      "value": "${iterator[0]}"
+    }, {
+      "id": "54639b0a-adf1-4484-9a79-bdc82574e139",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ctl32_ctl04_ctl05_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl05_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl05$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl05_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl05_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl05']/input", "xpath:idRelative"],
+        ["xpath=//td[5]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1f82f74b-615e-4458-8025-30eeebcb33cb",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=ctl32_ctl05_ctl04_ctl00_ButtonImg",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "576cc826-bd8e-47d7-bc68-e01916b3459a",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > img[src$='Export.gif']",
+      "targets": [
+        ["id=ctl32_ctl05_ctl04_ctl00_ButtonImg", "id"],
+        ["css=#ctl32_ctl05_ctl04_ctl00_ButtonImg", "css:finder"],
+        ["xpath=//img[@alt='Export drop down menu']", "xpath:img"],
+        ["xpath=//img[@id='ctl32_ctl05_ctl04_ctl00_ButtonImg']", "xpath:attributes"],
+        ["xpath=//a[@id='ctl32_ctl05_ctl04_ctl00_ButtonLink']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c767ac7-cfbe-49a7-a52b-dd5827282c0c",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "linkText=CSV (comma delimited)",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "3315f8c3-fa15-4540-9b49-1539e926405b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSV (comma delimited)",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "8ed71fce-2dd7-42f0-9975-087656ba9b75",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "34ae2a37-f04d-4ee0-a62f-65de7b7b1571",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e1d3ae4b-511b-41ec-ac23-d89430202241"]
+  }],
+  "urls": ["http://sapsvr01/"],
+  "plugins": []
+}

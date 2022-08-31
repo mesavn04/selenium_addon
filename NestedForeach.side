@@ -1,0 +1,63 @@
+{
+  "id": "8e63d41e-59a0-4921-af49-0cbe57d052b1",
+  "version": "2.0",
+  "name": "Keno Auto filler",
+  "url": "https://google.fr",
+  "tests": [{
+    "id": "7d381839-8eef-4fe2-bf37-4435979a3d4e",
+    "name": "Debug",
+    "commands": [{
+      "id": "cd1a8e84-fd47-4cef-9664-825c0cfcd2ab",
+      "comment": "",
+      "command": "storeJson",
+      "target": "[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15]]",
+      "targets": [],
+      "value": "numberscol"
+    }, {
+      "id": "4f0a3844-8010-40cd-91ce-d35babfc5271",
+      "comment": "",
+      "command": "forEach",
+      "target": "numberscol",
+      "targets": [],
+      "value": "numbers"
+    }, {
+      "id": "b222557a-4c38-401a-aeaa-fc90a6416208",
+      "comment": "",
+      "command": "runScript",
+      "target": "console.log(\"Numbers\", ${numbers});",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6687b553-178f-4815-bc0a-56ced69348fa",
+      "comment": "",
+      "command": "forEach",
+      "target": "numbers",
+      "targets": [],
+      "value": "number"
+    }, {
+      "id": "27c19ead-2ba6-450d-9ecf-4594f91b15c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "console.log(\"Number\", ${number});",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ed153ae-e4e9-4c74-9264-accfb7173383",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edffdfc1-4724-490f-a32b-6685464ea0f1",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["https://www.fdj.fr/jeux-de-tirage/keno-gagnant-a-vie/", "https://www.fdj.fr/", "https://google.fr/"],
+  "plugins": []
+}

@@ -1,0 +1,163 @@
+{
+  "id": "1e8cfcf3-0017-41fa-b0f2-5f7c071f4145",
+  "version": "2.0",
+  "name": "journal_ID",
+  "url": "http://sapsvr01",
+  "tests": [{
+    "id": "5c5d4ec6-a09e-4116-8586-58dfd9f09868",
+    "name": "test_journal",
+    "commands": [{
+      "id": "3e02e4fb-5f8b-4ce7-a671-df32d6f3c9e5",
+      "comment": "",
+      "command": "open",
+      "target": "/Reports/Pages/Report.aspx?ItemPath=%2f06.+Financial+Analysis%2fJounal+Entry",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02751020-6c23-4f4f-a1e4-2e1150b3c2fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64f51d08-5f2b-4262-9b1b-2b4c823ffb9e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [13156,13186,13226,13228,13229,13230,13231,13232,13233,13315,13363,13364,13368,13397,13399,13401,13466,13469,13471,13473,13475,13484,13530,13584,13585,13586,13587,13588,13981,13982,13983,13984,13985,13986,13987,13988,13989,13990,13991,13992,13993,13994,13995,13996,13997,13998,13999,14000,14001,14002,14003,14004,14019,14060,14061,14062,14072,14075,14076,14085,14116,13759,14123,14127,14128,14129,14130,14131,14132,14133,14140,14144,14145,14146,14147,14148,14149,14150,14151,14152,14153,14155,14160,14162,14163,14164,14165,14168,14171,14306,14307,14310,14311,14322,14323,14324,14328,13875,13876,13879,13880,13887,14342,14343,14344,14345,14346,14347,14348,14377,14378,14388,14389,14390,14391,14392,14393,14394,14395,14397,14398,14399,14400,14406,14407,14408,13949,13966,13967,13968,13969,13970,13971,14430,14431,14432,14433,14434,14435,14436,14437,14438,14444]",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "f387e0ee-12ad-4218-a7a0-cc8fdc59c2b1",
+      "comment": "",
+      "command": "forEach",
+      "target": "x",
+      "targets": [],
+      "value": "iterator"
+    }, {
+      "id": "fb5f4479-2c41-4a64-ba0e-51f490cc9079",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl32_ctl04_ctl03_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl03_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl03$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl03_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl03_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl03']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aeae7af-d796-4eec-b23e-9a2d218171b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ParamEntryCell",
+      "targets": [
+        ["css=.ParamEntryCell", "css:finder"],
+        ["xpath=//table[@id='ParametersGridctl32_ctl04']/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77cf3055-487e-47ed-a3f7-0fcbfca1dc3f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl32_ctl04_ctl03_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl03_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl03$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl03_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl03_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl03']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b74a31b-c70c-4250-ba1b-76872ec5ee3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl32_ctl04_ctl03_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl03_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl03$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl03_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl03_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl03']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": "${iterator}"
+    }, {
+      "id": "e811fed6-9360-4d98-a806-4aaa7372556c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ctl32_ctl04_ctl03_txtValue",
+      "targets": [
+        ["id=ctl32_ctl04_ctl03_txtValue", "id"],
+        ["name=ctl32$ctl04$ctl03$txtValue", "name"],
+        ["css=#ctl32_ctl04_ctl03_txtValue", "css:finder"],
+        ["xpath=//input[@id='ctl32_ctl04_ctl03_txtValue']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl04_ctl03']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7f44f1cb-3404-4218-820f-8bba9546b3da",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl32_ctl05_ctl04_ctl00_ButtonImg",
+      "targets": [
+        ["id=ctl32_ctl05_ctl04_ctl00_ButtonImg", "id"],
+        ["css=#ctl32_ctl05_ctl04_ctl00_ButtonImg", "css:finder"],
+        ["xpath=//img[@alt='Export drop down menu']", "xpath:img"],
+        ["xpath=//img[@id='ctl32_ctl05_ctl04_ctl00_ButtonImg']", "xpath:attributes"],
+        ["xpath=//a[@id='ctl32_ctl05_ctl04_ctl00_ButtonLink']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a01410-3850-41b8-9960-ed0e452a8329",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=a > img[src$='Export.gif']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21193a63-9cde-48ba-87b4-8c346f66341c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSV (comma delimited)",
+      "targets": [
+        ["linkText=CSV (comma delimited)", "linkText"],
+        ["css=.HoverButton > .ActiveLink", "css:finder"],
+        ["xpath=//a[contains(text(),'CSV (comma delimited)')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"$find('ctl32').exportReport('CSV');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='ctl32_ctl05_ctl04_ctl00_Menu']/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSV (comma delimited)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5786",
+      "windowTimeout": 2000
+    }, {
+      "id": "4b168c5e-e16e-4500-9b56-4b9c8e9442c8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3abf1a17-f8d8-43f7-a91d-994921e0f7b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://sapsvr01/"],
+  "plugins": []
+}
