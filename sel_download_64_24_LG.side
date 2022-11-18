@@ -44,7 +44,7 @@
         ["xpath=//div[@id='ctl32_ctl04_ctl05']/div/input", "xpath:idRelative"],
         ["xpath=//td[5]/div/div/input", "xpath:position"]
       ],
-      "value": "07/31/2022"
+      "value": "09/30/2022"
     }, {
       "id": "4bfd5ca3-c67e-49e0-b986-fefbf8f039ca",
       "comment": "",
@@ -78,7 +78,7 @@
         ["xpath=//div[@id='ctl32_ctl04_ctl03']/div/input", "xpath:idRelative"],
         ["xpath=//td[2]/div/div/input", "xpath:position"]
       ],
-      "value": "07/01/2022"
+      "value": "09/01/2022"
     }, {
       "id": "73f49d5b-6001-48b2-926f-4cf8817d4b18",
       "comment": "",
@@ -185,6 +185,20 @@
       ],
       "value": ""
     }, {
+      "id": "93f21002-1a99-48d9-ba3c-2a8da41c262c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=ctl32_ctl05_ctl04_ctl00_ButtonImg",
+      "targets": [
+        ["id=ctl32_ctl05_ctl04_ctl00_ButtonImg", "id"],
+        ["css=#ctl32_ctl05_ctl04_ctl00_ButtonImg", "css:finder"],
+        ["xpath=//img[@alt='Export drop down menu']", "xpath:img"],
+        ["xpath=//img[@id='ctl32_ctl05_ctl04_ctl00_ButtonImg']", "xpath:attributes"],
+        ["xpath=//a[@id='ctl32_ctl05_ctl04_ctl00_ButtonLink']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "50000"
+    }, {
       "id": "d95be96b-8117-45a7-acfa-7cfb5e23c3f8",
       "comment": "",
       "command": "waitForElementEditable",
@@ -280,7 +294,7 @@
         ["xpath=//div[@id='ctl32_ctl04_ctl05']/div/input", "xpath:idRelative"],
         ["xpath=//td[5]/div/div/input", "xpath:position"]
       ],
-      "value": "07/31/2022"
+      "value": "09/30/2022"
     }, {
       "id": "046f5aff-023f-4962-8cfe-b77e9e2f7662",
       "comment": "",
@@ -314,7 +328,7 @@
         ["xpath=//div[@id='ctl32_ctl04_ctl03']/div/input", "xpath:idRelative"],
         ["xpath=//td[2]/div/div/input", "xpath:position"]
       ],
-      "value": "07/01/2022"
+      "value": "09/01/2022"
     }, {
       "id": "cd128dce-f653-42ef-bd1e-b989b1d40990",
       "comment": "",
@@ -420,6 +434,20 @@
         ["xpath=//td/input", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "a935d826-6268-48a6-b363-71e232d13fa6",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=ctl32_ctl05_ctl04_ctl00_ButtonImg",
+      "targets": [
+        ["id=ctl32_ctl05_ctl04_ctl00_ButtonImg", "id"],
+        ["css=#ctl32_ctl05_ctl04_ctl00_ButtonImg", "css:finder"],
+        ["xpath=//img[@alt='Export drop down menu']", "xpath:img"],
+        ["xpath=//img[@id='ctl32_ctl05_ctl04_ctl00_ButtonImg']", "xpath:attributes"],
+        ["xpath=//a[@id='ctl32_ctl05_ctl04_ctl00_ButtonLink']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "50000"
     }, {
       "id": "f84f2e63-2cc5-4234-a68f-ad83c61fdb2c",
       "comment": "",
